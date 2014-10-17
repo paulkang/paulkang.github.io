@@ -3,24 +3,33 @@
 <head>
   <title>Paul Kang</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="style sheet" href="style3.css">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <div id="wrapper">
+ <div class="container">
+<div class jumbotron text-right">
+
+ <ul class="nav nav-tabs" role="tablist">
+  <li class="active"><a href="index.html">Introduction</a></li>
+  <li><a href="experience.html">Achievement</a></li>
+</ul>
+
+<div id="wrapper">
     <p>
       <img src="paul.jpg" align="right" id="walter">
     </p>
     <h1>Paul Kang</h1>
     <h2>MBA candidate</h2>
-    <h3>Northwestern University Kellogg school of management</h3>
-    <div id="connect">
-      <h4><u>Connect With Me</u></h4>
+  <h3>Northwestern University Kellogg school of management</h3>
+    <p>&nbsp;</p>
+  <div id="connect">
+  <h4><u>Connect With Me</u></h4>
       <ul>
-        <li><a href="mailto:dkang2015@kellogg.northwestern.edu">Email</a></li>
-        <li><a href="https://www.facebook.com/paul.kang.5074">Facebook</a></li>
+      	 <a herf="mailto:dkang2015@kellogg.northwestern.edu" class="btn btn-success">Email</a>
+         <a herf="https://www.facebook.com/paul.kang.5074" class="btn btn-primary">Facebook</a>
       </ul>
     </div>
     <hr>
@@ -32,7 +41,7 @@
     <hr>
 
     <div id="experience">
-      <h4><a href="experience.html">Achievement</a></h4>
+      <h4>Achievement</h4>
       <div>
         <h5>Lv70, Diablo III</h5>
         <p>Epic demon hunter</p>
@@ -58,8 +67,94 @@
       <ul>
         <li>Fishing, skiing, Golf</li>
       </ul>
+      <hr>
+      <p>&nbsp;</p>
     </div>
   </div>
+  
+  <div class="col-md-6">
+<div class="row">
+
+
+ <h4>Useful information</h4>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://bain.com">Bain&Company</a>
+    </div>
+
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="http://kellogg.northwestern.edu">Kellogg</a></li>
+        <li><a href="http://us.battle.net/d3/en/">Diablo 3</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other game series<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="http://us.battle.net/wow/en/">World of warcraft</a></li>
+            <li><a href="http://us.battle.net/sc2/en/">Starcraft2</a></li>
+            <li><a href="http://us.battle.net/hearthstone/en/">Hearthstone</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<ul></ul>   
+</div>
+</div>
+
+<div class="row">
+   <div class="col-md-6">
+ 
+ <h3>&nbsp;</h3>
+</div>
+</div>
+  <div class="row">
+   <div class="col-md-6">
+ 
+
+<h4> Member Sign-In </h4>
+   <form role="form">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> New member?
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Sign-In</button>
+</form>
+</div>
+</div>
+ </div>
+  
+  <p>&nbsp;</p>
+  <hr>
+
   <div id="footer">
     © 2014 Addictive games™ is a registered trademark of Contagious games.</div>
 </body>

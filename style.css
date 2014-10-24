@@ -1,7 +1,9 @@
 /* Turn the links red */
-a {
-  color: red;
+a:hover {
+	color: red;
+	font-size: 18px;
 }
+
 
 /* Make the name 36px font and italicized */
 h1 {
@@ -11,6 +13,10 @@ h1 {
 	color: #039;
 }
 
+h2 {
+	font-size: 40px;
+	font-style: arial;
+}
 /* Make the section headers (e.g. Summary, Experience) 26px font */
 h4 {
   font-size: 26px;
@@ -18,48 +24,26 @@ h4 {
 
 /* Make the job descriptions (e.g. Co-Owner, A1A Car Wash) blue and 20px font */
 h5 {
-  color: blue;
   font-size: 20px;
 }
 
 /* Put a border around the photo, set it to the right */
 img#walter {
 	border: 1px solid grey;
-	border-radius: 55px;
+	border-radius: 15px;
 	box-shadow: 10px 10px 5px grey;
 	float: right;
 }
 
 /* Set the font family for the whole document, and add a background image */
-body {
-  font-family: 'Droid Sans', arial;
-  background-image: url(background2.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-}
+
 
 /* Give the paragraphs and lists a 26px line height */
-p, li {
-  line-height: 26px;
-}
+
 
 /* Make the links purple when I put my mouse over it */
-a:hover {
-  color: purple;
-}
 
 /* Make the content of the page "sit on top of" the background */
-#wrapper {
-  background-color: white;
-  width: 960px;
-  margin: 20px auto;
-  padding: 20px;
-}
+
 
 /* Make it so you can see the footer and center it */
-#footer {
-  color: white;
-  margin: 20px auto;
-  text-align: center;
-}
